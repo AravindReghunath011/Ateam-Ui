@@ -1,6 +1,6 @@
 import { ChefHat } from "lucide-react";
 
-export default MentorshipCard = () => {
+const MentorshipCard = () => {
   return (
     <div className="bg-gradient-to-br from-teal-400 via-green-400 to-teal-500 rounded-2xl p-6 shadow-xl text-white relative overflow-hidden">
       <div className="relative z-10">
@@ -20,3 +20,6 @@ export default MentorshipCard = () => {
     </div>
   );
 }
+
+
+export default MentorshipCard;

@@ -1,4 +1,4 @@
-export default  CustomCursor = () => {
+const CustomCursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [isHovering, setIsHovering] = useState(false);
 
@@ -41,3 +41,6 @@ export default  CustomCursor = () => {
     </div>
   );
 };
+
+
+export default CustomCursor;

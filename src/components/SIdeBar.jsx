@@ -1,6 +1,6 @@
-import { ChefHat, Utensils } from "lucide-react";
+import { ChefHat, Utensils, Heart, BookOpen, MessageCircle } from "lucide-react";
 
-export default Sidebar = ({ activeSection, setActiveSection }) => {
+const Sidebar = ({ activeSection, setActiveSection }) => {
   const menuItems = [
     { id: 'recipes', label: 'Recipes', icon: Utensils, count: 37 },
     { id: 'favorites', label: 'Favorites', icon: Heart, count: null },
@@ -65,3 +65,6 @@ export default Sidebar = ({ activeSection, setActiveSection }) => {
     </div>
   );
 };
+
+
+export default Sidebar

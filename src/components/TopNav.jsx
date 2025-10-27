@@ -1,6 +1,6 @@
 import { Search } from "lucide-react";
 
-export default TopNav = () => {
+const TopNav = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
   return (
@@ -26,3 +26,5 @@ export default TopNav = () => {
     </div>
   );
 };
+
+export default TopNav;

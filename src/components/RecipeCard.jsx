@@ -1,6 +1,6 @@
 import { Star, Utensils } from "lucide-react";
 
-export default  RecipeCard = ({ recipe }) => {
+const RecipeCard = ({ recipe }) => {
   return (
     <div className="group relative bg-white rounded-2xl shadow-lg w-full max-w-xs mx-auto flex flex-col transition-all duration-300 hover:shadow-xl">
       {/* Image Circle - positioned outwards */}
@@ -67,3 +67,5 @@ export default  RecipeCard = ({ recipe }) => {
     </div>
   );
 };
+
+export default RecipeCard;
