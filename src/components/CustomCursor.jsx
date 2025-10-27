@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+
 const CustomCursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [isHovering, setIsHovering] = useState(false);
